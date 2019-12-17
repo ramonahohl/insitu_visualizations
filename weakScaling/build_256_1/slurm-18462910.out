@@ -1,0 +1,1579 @@
+ModuleCmd_Switch.c(179):ERROR:152: Module 'PrgEnv-cray' is currently not loaded
+
+**** WARNING ***********************************************************
+Shifter is now deprecated and its support will be dropped after the next
+upgrade. It will be replaced by the Sarus container engine.
+
+Please note that existing Shifter images are not compatible with Sarus
+and cannot be transferred to the new software.
+Container images will have to be re-pulled or re-loaded using Sarus in
+order to work with the new service.
+
+For more information, please refer to the user portal:
+
+https://user.cscs.ch/tools/containers/
+************************************************************************
+
+[2019-12-02 14:15:07.948409] [0x00002aaaaab3ca00] [info]    Number of GPUs on node: 1
+omp max threads= 1
+type : dll
+library : adaptor/libdll_adaptor.so
+create_function : create
+delete_function : delete_data
+write_function : CatalystCoProcess
+make_parameters_function : make_parameters
+delete_parameters_function : delete_parameters
+needs_data_on_host_function : needs_data_on_host
+set_parameter_function : set_parameter
+set_mpi_comm_function : set_mpi_comm
+new_timestep_function : new_timestep
+end_timestep_function : end_timestep
+endTime : 4
+basename : none
+samples : 1
+multiblock : 1 1 1
+hist_2points : 1
+hist_npoints : 8
+hist_nbins : 10
+hist_folder : /scratch/snx3000/rhohl/alsvinn_insitu/build_256_1/histograms/
+catalystscript : ../pythonScripts/generic3d_mb_isovol.py
+numberOfSaves : 100
+mpi_rank : 0
+mpi_size : 1
+group_names : sample_0
+group_index : 0
+rank 0 : initialized processor with comm 0x2aaacaca2c24
+VisRTX 0.1.6, using devices:
+ 0: Tesla P100-PCIE-16GB (Total: 17.1 GB, Available: 16.8 GB)
+pipeline script: ../pythonScripts/generic3d_mb_isovol.py
+mpi rank : 0 at time 0.0
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+mpi rank : 0 at time 0.1
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m( 146.993s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.08 but only 0.04 is available[0m
+[0m[33m( 161.137s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.08 but only 0.04 is available[0m
+[0m[33m( 162.010s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.08 but only 0.04 is available[0m
+[0m[33m( 170.166s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.08 but only 0.04 is available[0m
+[0m[33m( 171.042s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.08 but only 0.04 is available[0m
+[0m[33m( 184.734s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.08 but only 0.04 is available[0m
+[0m[33m( 185.599s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.08 but only 0.04 is available[0m
+[0m[33m( 199.284s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.08 but only 0.04 is available[0m
+[0m[33m( 200.161s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.08 but only 0.04 is available[0m
+mpi rank : 0 at time 0.1
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m( 228.005s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.12 but only 0.04 is available[0m
+[0m[33m( 241.999s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.12 but only 0.04 is available[0m
+[0m[33m( 242.876s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.12 but only 0.04 is available[0m
+[0m[33m( 250.859s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.12 but only 0.04 is available[0m
+[0m[33m( 251.743s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.12 but only 0.04 is available[0m
+[0m[33m( 265.455s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.12 but only 0.04 is available[0m
+[0m[33m( 266.307s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.12 but only 0.04 is available[0m
+[0m[33m( 280.171s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.12 but only 0.04 is available[0m
+[0m[33m( 281.049s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.12 but only 0.04 is available[0m
+mpi rank : 0 at time 0.2
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m( 308.811s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.16 but only 0.04 is available[0m
+[0m[33m( 322.667s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.16 but only 0.04 is available[0m
+[0m[33m( 323.526s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.16 but only 0.04 is available[0m
+[0m[33m( 331.534s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.16 but only 0.04 is available[0m
+[0m[33m( 332.443s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.16 but only 0.04 is available[0m
+[0m[33m( 346.348s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.16 but only 0.04 is available[0m
+[0m[33m( 347.198s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.16 but only 0.04 is available[0m
+[0m[33m( 361.097s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.16 but only 0.04 is available[0m
+[0m[33m( 361.970s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.16 but only 0.04 is available[0m
+mpi rank : 0 at time 0.2
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m( 389.777s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.2 but only 0.04 is available[0m
+[0m[33m( 403.702s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.2 but only 0.04 is available[0m
+[0m[33m( 404.570s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.2 but only 0.04 is available[0m
+[0m[33m( 412.661s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.2 but only 0.04 is available[0m
+[0m[33m( 413.521s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.2 but only 0.04 is available[0m
+[0m[33m( 427.168s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.2 but only 0.04 is available[0m
+[0m[33m( 428.042s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.2 but only 0.04 is available[0m
+[0m[33m( 441.927s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.2 but only 0.04 is available[0m
+[0m[33m( 442.793s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.2 but only 0.04 is available[0m
+mpi rank : 0 at time 0.2
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m( 470.720s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.24 but only 0.04 is available[0m
+[0m[33m( 484.664s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.24 but only 0.04 is available[0m
+[0m[33m( 485.541s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.24 but only 0.04 is available[0m
+[0m[33m( 493.633s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.24 but only 0.04 is available[0m
+[0m[33m( 494.490s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.24 but only 0.04 is available[0m
+[0m[33m( 508.316s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.24 but only 0.04 is available[0m
+[0m[33m( 509.196s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.24 but only 0.04 is available[0m
+[0m[33m( 523.273s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.24 but only 0.04 is available[0m
+[0m[33m( 524.150s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.24 but only 0.04 is available[0m
+mpi rank : 0 at time 0.3
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m( 552.404s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.28 but only 0.04 is available[0m
+[0m[33m( 566.086s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.28 but only 0.04 is available[0m
+[0m[33m( 567.225s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.28 but only 0.04 is available[0m
+[0m[33m( 575.280s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.28 but only 0.04 is available[0m
+[0m[33m( 576.156s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.28 but only 0.04 is available[0m
+[0m[33m( 589.842s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.28 but only 0.04 is available[0m
+[0m[33m( 593.530s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.28 but only 0.04 is available[0m
+[0m[33m( 607.120s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.28 but only 0.04 is available[0m
+[0m[33m( 607.990s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.28 but only 0.04 is available[0m
+mpi rank : 0 at time 0.3
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m( 637.030s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.32 but only 0.04 is available[0m
+[0m[33m( 650.846s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.32 but only 0.04 is available[0m
+[0m[33m( 651.704s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.32 but only 0.04 is available[0m
+[0m[33m( 659.743s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.32 but only 0.04 is available[0m
+[0m[33m( 661.152s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.32 but only 0.04 is available[0m
+[0m[33m( 675.771s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.32 but only 0.04 is available[0m
+[0m[33m( 676.626s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.32 but only 0.04 is available[0m
+[0m[33m( 690.274s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.32 but only 0.04 is available[0m
+[0m[33m( 691.186s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.32 but only 0.04 is available[0m
+mpi rank : 0 at time 0.4
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m( 720.382s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.36 but only 0.04 is available[0m
+[0m[33m( 734.295s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.36 but only 0.04 is available[0m
+[0m[33m( 735.281s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.36 but only 0.04 is available[0m
+[0m[33m( 743.370s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.36 but only 0.04 is available[0m
+[0m[33m( 744.246s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.36 but only 0.04 is available[0m
+[0m[33m( 762.373s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.36 but only 0.04 is available[0m
+[0m[33m( 763.251s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.36 but only 0.04 is available[0m
+[0m[33m( 776.871s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.36 but only 0.04 is available[0m
+[0m[33m( 777.738s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.36 but only 0.04 is available[0m
+mpi rank : 0 at time 0.4
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m( 807.001s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.4 but only 0.04 is available[0m
+[0m[33m( 821.269s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.4 but only 0.04 is available[0m
+[0m[33m( 822.144s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.4 but only 0.04 is available[0m
+[0m[33m( 830.296s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.4 but only 0.04 is available[0m
+[0m[33m( 831.174s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.4 but only 0.04 is available[0m
+[0m[33m( 853.973s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.4 but only 0.04 is available[0m
+[0m[33m( 854.837s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.4 but only 0.04 is available[0m
+[0m[33m( 868.514s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.4 but only 0.04 is available[0m
+[0m[33m( 869.370s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.4 but only 0.04 is available[0m
+mpi rank : 0 at time 0.4
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m( 898.659s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.44 but only 0.04 is available[0m
+[0m[33m( 912.506s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.44 but only 0.04 is available[0m
+[0m[33m( 913.383s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.44 but only 0.04 is available[0m
+[0m[33m( 921.534s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.44 but only 0.04 is available[0m
+[0m[33m( 922.383s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.44 but only 0.04 is available[0m
+[0m[33m( 938.118s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.44 but only 0.04 is available[0m
+[0m[33m( 938.988s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.44 but only 0.04 is available[0m
+[0m[33m( 952.702s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.44 but only 0.04 is available[0m
+[0m[33m( 953.571s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.44 but only 0.04 is available[0m
+mpi rank : 0 at time 0.5
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m( 982.764s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.48 but only 0.04 is available[0m
+[0m[33m( 996.680s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.48 but only 0.04 is available[0m
+[0m[33m( 997.557s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.48 but only 0.04 is available[0m
+[0m[33m(1005.747s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.48 but only 0.04 is available[0m
+[0m[33m(1006.640s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.48 but only 0.04 is available[0m
+[0m[33m(1020.260s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.48 but only 0.04 is available[0m
+[0m[33m(1021.149s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.48 but only 0.04 is available[0m
+[0m[33m(1034.805s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.48 but only 0.04 is available[0m
+[0m[33m(1035.668s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.48 but only 0.04 is available[0m
+mpi rank : 0 at time 0.5
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(1066.202s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.52 but only 0.04 is available[0m
+[0m[33m(1080.291s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.52 but only 0.04 is available[0m
+[0m[33m(1081.220s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.52 but only 0.04 is available[0m
+[0m[33m(1089.424s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.52 but only 0.04 is available[0m
+[0m[33m(1090.355s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.52 but only 0.04 is available[0m
+[0m[33m(1104.049s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.52 but only 0.04 is available[0m
+[0m[33m(1104.916s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.52 but only 0.04 is available[0m
+[0m[33m(1118.581s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.52 but only 0.04 is available[0m
+[0m[33m(1119.439s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.52 but only 0.04 is available[0m
+mpi rank : 0 at time 0.6
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(1148.800s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.56 but only 0.04 is available[0m
+[0m[33m(1162.691s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.56 but only 0.04 is available[0m
+[0m[33m(1163.567s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.56 but only 0.04 is available[0m
+[0m[33m(1171.811s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.56 but only 0.04 is available[0m
+[0m[33m(1172.669s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.56 but only 0.04 is available[0m
+[0m[33m(1186.582s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.56 but only 0.04 is available[0m
+[0m[33m(1187.431s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.56 but only 0.04 is available[0m
+[0m[33m(1201.074s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.56 but only 0.04 is available[0m
+[0m[33m(1201.941s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.56 but only 0.04 is available[0m
+mpi rank : 0 at time 0.6
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(1231.490s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.6 but only 0.04 is available[0m
+[0m[33m(1245.409s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.6 but only 0.04 is available[0m
+[0m[33m(1246.285s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.6 but only 0.04 is available[0m
+[0m[33m(1254.561s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.6 but only 0.04 is available[0m
+[0m[33m(1255.410s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.6 but only 0.04 is available[0m
+[0m[33m(1269.340s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.6 but only 0.04 is available[0m
+[0m[33m(1270.216s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.6 but only 0.04 is available[0m
+[0m[33m(1284.254s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.6 but only 0.04 is available[0m
+[0m[33m(1285.131s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.6 but only 0.04 is available[0m
+mpi rank : 0 at time 0.6
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(1315.060s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.64 but only 0.04 is available[0m
+[0m[33m(1329.060s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.64 but only 0.04 is available[0m
+[0m[33m(1329.926s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.64 but only 0.04 is available[0m
+[0m[33m(1338.242s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.64 but only 0.04 is available[0m
+[0m[33m(1344.412s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.64 but only 0.04 is available[0m
+[0m[33m(1358.137s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.64 but only 0.04 is available[0m
+[0m[33m(1359.013s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.64 but only 0.04 is available[0m
+[0m[33m(1372.672s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.64 but only 0.04 is available[0m
+[0m[33m(1373.556s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.64 but only 0.04 is available[0m
+mpi rank : 0 at time 0.7
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(1403.740s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.68 but only 0.04 is available[0m
+[0m[33m(1417.714s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.68 but only 0.04 is available[0m
+[0m[33m(1418.568s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.68 but only 0.04 is available[0m
+[0m[33m(1426.893s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.68 but only 0.04 is available[0m
+[0m[33m(1427.755s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.68 but only 0.04 is available[0m
+[0m[33m(1441.380s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.68 but only 0.04 is available[0m
+[0m[33m(1442.256s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.68 but only 0.04 is available[0m
+[0m[33m(1455.931s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.68 but only 0.04 is available[0m
+[0m[33m(1456.792s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.68 but only 0.04 is available[0m
+mpi rank : 0 at time 0.7
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(1487.133s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.72 but only 0.04 is available[0m
+[0m[33m(1501.182s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.72 but only 0.04 is available[0m
+[0m[33m(1502.054s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.72 but only 0.04 is available[0m
+[0m[33m(1510.532s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.72 but only 0.04 is available[0m
+[0m[33m(1511.393s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.72 but only 0.04 is available[0m
+[0m[33m(1525.230s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.72 but only 0.04 is available[0m
+[0m[33m(1526.103s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.72 but only 0.04 is available[0m
+[0m[33m(1539.835s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.72 but only 0.04 is available[0m
+[0m[33m(1540.693s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.72 but only 0.04 is available[0m
+mpi rank : 0 at time 0.8
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(1570.913s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.76 but only 0.04 is available[0m
+[0m[33m(1584.917s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.76 but only 0.04 is available[0m
+[0m[33m(1585.798s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.76 but only 0.04 is available[0m
+[0m[33m(1594.235s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.76 but only 0.04 is available[0m
+[0m[33m(1595.107s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.76 but only 0.04 is available[0m
+[0m[33m(1608.791s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.76 but only 0.04 is available[0m
+[0m[33m(1609.682s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.76 but only 0.04 is available[0m
+[0m[33m(1623.470s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.76 but only 0.04 is available[0m
+[0m[33m(1624.318s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.76 but only 0.04 is available[0m
+mpi rank : 0 at time 0.8
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(1654.722s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.8 but only 0.04 is available[0m
+[0m[33m(1668.742s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.8 but only 0.04 is available[0m
+[0m[33m(1669.624s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.8 but only 0.04 is available[0m
+[0m[33m(1678.110s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.8 but only 0.04 is available[0m
+[0m[33m(1678.979s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.8 but only 0.04 is available[0m
+[0m[33m(1692.920s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.8 but only 0.04 is available[0m
+[0m[33m(1693.782s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.8 but only 0.04 is available[0m
+[0m[33m(1707.559s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.8 but only 0.04 is available[0m
+[0m[33m(1708.419s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.8 but only 0.04 is available[0m
+mpi rank : 0 at time 0.8
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(1738.890s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.84 but only 0.04 is available[0m
+[0m[33m(1752.974s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.84 but only 0.04 is available[0m
+[0m[33m(1753.839s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.84 but only 0.04 is available[0m
+[0m[33m(1762.492s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.84 but only 0.04 is available[0m
+[0m[33m(1763.340s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.84 but only 0.04 is available[0m
+[0m[33m(1777.366s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.84 but only 0.04 is available[0m
+[0m[33m(1778.244s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.84 but only 0.04 is available[0m
+[0m[33m(1791.936s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.84 but only 0.04 is available[0m
+[0m[33m(1792.800s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.84 but only 0.04 is available[0m
+mpi rank : 0 at time 0.9
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(1823.414s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.88 but only 0.04 is available[0m
+[0m[33m(1837.447s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.88 but only 0.04 is available[0m
+[0m[33m(1838.314s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.88 but only 0.04 is available[0m
+[0m[33m(1846.992s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.88 but only 0.04 is available[0m
+[0m[33m(1848.249s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.88 but only 0.04 is available[0m
+[0m[33m(1861.917s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.88 but only 0.04 is available[0m
+[0m[33m(1862.785s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.88 but only 0.04 is available[0m
+[0m[33m(1876.589s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.88 but only 0.04 is available[0m
+[0m[33m(1877.445s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.88 but only 0.04 is available[0m
+mpi rank : 0 at time 0.9
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(1908.489s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.92 but only 0.04 is available[0m
+[0m[33m(1922.557s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.92 but only 0.04 is available[0m
+[0m[33m(1923.405s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.92 but only 0.04 is available[0m
+[0m[33m(1931.943s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.92 but only 0.04 is available[0m
+[0m[33m(1932.806s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.92 but only 0.04 is available[0m
+[0m[33m(1946.446s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.92 but only 0.04 is available[0m
+[0m[33m(1947.321s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.92 but only 0.04 is available[0m
+[0m[33m(1961.230s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.92 but only 0.04 is available[0m
+[0m[33m(1962.103s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.92 but only 0.04 is available[0m
+mpi rank : 0 at time 1.0
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(1993.441s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 0.96 but only 0.04 is available[0m
+[0m[33m(2007.461s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 0.96 but only 0.04 is available[0m
+[0m[33m(2008.337s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 0.96 but only 0.04 is available[0m
+[0m[33m(2016.951s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 0.96 but only 0.04 is available[0m
+[0m[33m(2017.857s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 0.96 but only 0.04 is available[0m
+[0m[33m(2031.644s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 0.96 but only 0.04 is available[0m
+[0m[33m(2032.580s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 0.96 but only 0.04 is available[0m
+[0m[33m(2046.491s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 0.96 but only 0.04 is available[0m
+[0m[33m(2047.346s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 0.96 but only 0.04 is available[0m
+mpi rank : 0 at time 1.0
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(2078.584s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1 but only 0.04 is available[0m
+[0m[33m(2092.715s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1 but only 0.04 is available[0m
+[0m[33m(2093.570s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1 but only 0.04 is available[0m
+[0m[33m(2102.194s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1 but only 0.04 is available[0m
+[0m[33m(2103.065s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1 but only 0.04 is available[0m
+[0m[33m(2116.820s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1 but only 0.04 is available[0m
+[0m[33m(2117.680s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1 but only 0.04 is available[0m
+[0m[33m(2131.386s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1 but only 0.04 is available[0m
+[0m[33m(2132.265s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1 but only 0.04 is available[0m
+mpi rank : 0 at time 1.0
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(2163.548s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.04 but only 0.04 is available[0m
+[0m[33m(2177.932s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.04 but only 0.04 is available[0m
+[0m[33m(2178.794s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.04 but only 0.04 is available[0m
+[0m[33m(2187.461s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.04 but only 0.04 is available[0m
+[0m[33m(2188.310s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.04 but only 0.04 is available[0m
+[0m[33m(2202.024s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.04 but only 0.04 is available[0m
+[0m[33m(2202.896s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.04 but only 0.04 is available[0m
+[0m[33m(2216.650s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.04 but only 0.04 is available[0m
+[0m[33m(2217.504s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.04 but only 0.04 is available[0m
+mpi rank : 0 at time 1.1
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(2249.012s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.08 but only 0.04 is available[0m
+[0m[33m(2263.690s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.08 but only 0.04 is available[0m
+[0m[33m(2264.544s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.08 but only 0.04 is available[0m
+[0m[33m(2273.239s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.08 but only 0.04 is available[0m
+[0m[33m(2274.113s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.08 but only 0.04 is available[0m
+[0m[33m(2287.848s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.08 but only 0.04 is available[0m
+[0m[33m(2288.708s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.08 but only 0.04 is available[0m
+[0m[33m(2302.317s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.08 but only 0.04 is available[0m
+[0m[33m(2303.223s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.08 but only 0.04 is available[0m
+mpi rank : 0 at time 1.1
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(2335.183s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.12 but only 0.04 is available[0m
+[0m[33m(2349.295s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.12 but only 0.04 is available[0m
+[0m[33m(2350.174s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.12 but only 0.04 is available[0m
+[0m[33m(2358.994s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.12 but only 0.04 is available[0m
+[0m[33m(2359.859s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.12 but only 0.04 is available[0m
+[0m[33m(2373.969s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.12 but only 0.04 is available[0m
+[0m[33m(2374.845s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.12 but only 0.04 is available[0m
+[0m[33m(2388.649s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.12 but only 0.04 is available[0m
+[0m[33m(2389.502s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.12 but only 0.04 is available[0m
+mpi rank : 0 at time 1.2
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(2421.673s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.16 but only 0.04 is available[0m
+[0m[33m(2435.848s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.16 but only 0.04 is available[0m
+[0m[33m(2436.724s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.16 but only 0.04 is available[0m
+[0m[33m(2445.620s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.16 but only 0.04 is available[0m
+[0m[33m(2446.478s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.16 but only 0.04 is available[0m
+[0m[33m(2460.228s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.16 but only 0.04 is available[0m
+[0m[33m(2461.104s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.16 but only 0.04 is available[0m
+[0m[33m(2475.200s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.16 but only 0.04 is available[0m
+[0m[33m(2476.077s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.16 but only 0.04 is available[0m
+mpi rank : 0 at time 1.2
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(2508.688s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.2 but only 0.04 is available[0m
+[0m[33m(2522.821s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.2 but only 0.04 is available[0m
+[0m[33m(2523.697s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.2 but only 0.04 is available[0m
+[0m[33m(2532.547s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.2 but only 0.04 is available[0m
+[0m[33m(2533.472s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.2 but only 0.04 is available[0m
+[0m[33m(2547.296s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.2 but only 0.04 is available[0m
+[0m[33m(2548.154s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.2 but only 0.04 is available[0m
+[0m[33m(2562.085s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.2 but only 0.04 is available[0m
+[0m[33m(2563.007s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.2 but only 0.04 is available[0m
+mpi rank : 0 at time 1.2
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(2595.125s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.24 but only 0.04 is available[0m
+[0m[33m(2609.259s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.24 but only 0.04 is available[0m
+[0m[33m(2610.136s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.24 but only 0.04 is available[0m
+[0m[33m(2619.028s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.24 but only 0.04 is available[0m
+[0m[33m(2619.900s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.24 but only 0.04 is available[0m
+[0m[33m(2633.702s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.24 but only 0.04 is available[0m
+[0m[33m(2634.632s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.24 but only 0.04 is available[0m
+[0m[33m(2648.332s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.24 but only 0.04 is available[0m
+[0m[33m(2649.208s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.24 but only 0.04 is available[0m
+mpi rank : 0 at time 1.3
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(2681.322s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.28 but only 0.04 is available[0m
+[0m[33m(2695.414s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.28 but only 0.04 is available[0m
+[0m[33m(2696.263s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.28 but only 0.04 is available[0m
+[0m[33m(2705.209s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.28 but only 0.04 is available[0m
+[0m[33m(2706.087s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.28 but only 0.04 is available[0m
+[0m[33m(2720.046s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.28 but only 0.04 is available[0m
+[0m[33m(2722.639s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.28 but only 0.04 is available[0m
+[0m[33m(2736.420s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.28 but only 0.04 is available[0m
+[0m[33m(2737.270s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.28 but only 0.04 is available[0m
+mpi rank : 0 at time 1.3
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(2769.790s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.32 but only 0.04 is available[0m
+[0m[33m(2783.903s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.32 but only 0.04 is available[0m
+[0m[33m(2784.780s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.32 but only 0.04 is available[0m
+[0m[33m(2793.761s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.32 but only 0.04 is available[0m
+[0m[33m(2794.622s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.32 but only 0.04 is available[0m
+[0m[33m(2808.519s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.32 but only 0.04 is available[0m
+[0m[33m(2809.388s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.32 but only 0.04 is available[0m
+[0m[33m(2823.175s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.32 but only 0.04 is available[0m
+[0m[33m(2824.052s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.32 but only 0.04 is available[0m
+mpi rank : 0 at time 1.4
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(2856.715s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.36 but only 0.04 is available[0m
+[0m[33m(2870.907s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.36 but only 0.04 is available[0m
+[0m[33m(2871.836s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.36 but only 0.04 is available[0m
+[0m[33m(2880.958s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.36 but only 0.04 is available[0m
+[0m[33m(2881.828s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.36 but only 0.04 is available[0m
+[0m[33m(2896.145s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.36 but only 0.04 is available[0m
+[0m[33m(2897.021s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.36 but only 0.04 is available[0m
+[0m[33m(2910.903s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.36 but only 0.04 is available[0m
+[0m[33m(2911.772s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.36 but only 0.04 is available[0m
+mpi rank : 0 at time 1.4
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(2944.651s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.4 but only 0.04 is available[0m
+[0m[33m(2958.841s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.4 but only 0.04 is available[0m
+[0m[33m(2959.708s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.4 but only 0.04 is available[0m
+[0m[33m(2968.881s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.4 but only 0.04 is available[0m
+[0m[33m(2969.757s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.4 but only 0.04 is available[0m
+[0m[33m(2983.572s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.4 but only 0.04 is available[0m
+[0m[33m(2984.449s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.4 but only 0.04 is available[0m
+[0m[33m(2998.760s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.4 but only 0.04 is available[0m
+[0m[33m(2999.624s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.4 but only 0.04 is available[0m
+mpi rank : 0 at time 1.4
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(3032.544s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.44 but only 0.04 is available[0m
+[0m[33m(3046.716s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.44 but only 0.04 is available[0m
+[0m[33m(3047.576s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.44 but only 0.04 is available[0m
+[0m[33m(3056.805s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.44 but only 0.04 is available[0m
+[0m[33m(3057.668s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.44 but only 0.04 is available[0m
+[0m[33m(3071.458s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.44 but only 0.04 is available[0m
+[0m[33m(3072.352s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.44 but only 0.04 is available[0m
+[0m[33m(3086.101s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.44 but only 0.04 is available[0m
+[0m[33m(3086.977s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.44 but only 0.04 is available[0m
+mpi rank : 0 at time 1.5
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(3120.844s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.48 but only 0.04 is available[0m
+[0m[33m(3135.045s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.48 but only 0.04 is available[0m
+[0m[33m(3135.916s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.48 but only 0.04 is available[0m
+[0m[33m(3145.102s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.48 but only 0.04 is available[0m
+[0m[33m(3145.976s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.48 but only 0.04 is available[0m
+[0m[33m(3159.694s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.48 but only 0.04 is available[0m
+[0m[33m(3160.552s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.48 but only 0.04 is available[0m
+[0m[33m(3174.281s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.48 but only 0.04 is available[0m
+[0m[33m(3175.136s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.48 but only 0.04 is available[0m
+mpi rank : 0 at time 1.5
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(3208.274s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.52 but only 0.04 is available[0m
+[0m[33m(3222.417s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.52 but only 0.04 is available[0m
+[0m[33m(3223.269s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.52 but only 0.04 is available[0m
+[0m[33m(3232.524s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.52 but only 0.04 is available[0m
+[0m[33m(3233.376s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.52 but only 0.04 is available[0m
+[0m[33m(3247.207s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.52 but only 0.04 is available[0m
+[0m[33m(3248.084s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.52 but only 0.04 is available[0m
+[0m[33m(3261.745s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.52 but only 0.04 is available[0m
+[0m[33m(3262.621s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.52 but only 0.04 is available[0m
+mpi rank : 0 at time 1.6
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(3296.087s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.56 but only 0.04 is available[0m
+[0m[33m(3310.383s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.56 but only 0.04 is available[0m
+[0m[33m(3311.232s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.56 but only 0.04 is available[0m
+[0m[33m(3320.530s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.56 but only 0.04 is available[0m
+[0m[33m(3321.498s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.56 but only 0.04 is available[0m
+[0m[33m(3335.271s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.56 but only 0.04 is available[0m
+[0m[33m(3336.147s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.56 but only 0.04 is available[0m
+[0m[33m(3349.952s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.56 but only 0.04 is available[0m
+[0m[33m(3350.821s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.56 but only 0.04 is available[0m
+mpi rank : 0 at time 1.6
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(3384.504s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.6 but only 0.04 is available[0m
+[0m[33m(3398.849s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.6 but only 0.04 is available[0m
+[0m[33m(3399.715s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.6 but only 0.04 is available[0m
+[0m[33m(3409.399s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.6 but only 0.04 is available[0m
+[0m[33m(3410.276s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.6 but only 0.04 is available[0m
+[0m[33m(3424.037s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.6 but only 0.04 is available[0m
+[0m[33m(3424.910s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.6 but only 0.04 is available[0m
+[0m[33m(3438.717s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.6 but only 0.04 is available[0m
+[0m[33m(3439.578s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.6 but only 0.04 is available[0m
+mpi rank : 0 at time 1.6
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(3473.992s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.64 but only 0.04 is available[0m
+[0m[33m(3488.518s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.64 but only 0.04 is available[0m
+[0m[33m(3489.371s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.64 but only 0.04 is available[0m
+[0m[33m(3498.865s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.64 but only 0.04 is available[0m
+[0m[33m(3499.734s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.64 but only 0.04 is available[0m
+[0m[33m(3513.741s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.64 but only 0.04 is available[0m
+[0m[33m(3514.602s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.64 but only 0.04 is available[0m
+[0m[33m(3528.483s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.64 but only 0.04 is available[0m
+[0m[33m(3529.342s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.64 but only 0.04 is available[0m
+mpi rank : 0 at time 1.7
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(3563.504s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.68 but only 0.04 is available[0m
+[0m[33m(3577.763s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.68 but only 0.04 is available[0m
+[0m[33m(3578.624s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.68 but only 0.04 is available[0m
+[0m[33m(3588.184s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.68 but only 0.04 is available[0m
+[0m[33m(3589.061s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.68 but only 0.04 is available[0m
+[0m[33m(3602.849s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.68 but only 0.04 is available[0m
+[0m[33m(3603.716s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.68 but only 0.04 is available[0m
+[0m[33m(3617.518s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.68 but only 0.04 is available[0m
+[0m[33m(3618.374s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.68 but only 0.04 is available[0m
+mpi rank : 0 at time 1.7
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(3652.326s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.72 but only 0.04 is available[0m
+[0m[33m(3666.621s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.72 but only 0.04 is available[0m
+[0m[33m(3667.481s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.72 but only 0.04 is available[0m
+[0m[33m(3676.901s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.72 but only 0.04 is available[0m
+[0m[33m(3677.768s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.72 but only 0.04 is available[0m
+[0m[33m(3691.620s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.72 but only 0.04 is available[0m
+[0m[33m(3692.476s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.72 but only 0.04 is available[0m
+[0m[33m(3706.265s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.72 but only 0.04 is available[0m
+[0m[33m(3707.141s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.72 but only 0.04 is available[0m
+mpi rank : 0 at time 1.8
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(3740.925s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.76 but only 0.04 is available[0m
+[0m[33m(3755.135s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.76 but only 0.04 is available[0m
+[0m[33m(3756.016s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.76 but only 0.04 is available[0m
+[0m[33m(3765.634s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.76 but only 0.04 is available[0m
+[0m[33m(3766.497s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.76 but only 0.04 is available[0m
+[0m[33m(3780.397s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.76 but only 0.04 is available[0m
+[0m[33m(3781.246s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.76 but only 0.04 is available[0m
+[0m[33m(3794.988s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.76 but only 0.04 is available[0m
+[0m[33m(3795.902s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.76 but only 0.04 is available[0m
+mpi rank : 0 at time 1.8
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(3830.102s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.8 but only 0.04 is available[0m
+[0m[33m(3844.115s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.8 but only 0.04 is available[0m
+[0m[33m(3844.992s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.8 but only 0.04 is available[0m
+[0m[33m(3854.643s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.8 but only 0.04 is available[0m
+[0m[33m(3855.577s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.8 but only 0.04 is available[0m
+[0m[33m(3869.280s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.8 but only 0.04 is available[0m
+[0m[33m(3870.155s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.8 but only 0.04 is available[0m
+[0m[33m(3883.962s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.8 but only 0.04 is available[0m
+[0m[33m(3884.831s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.8 but only 0.04 is available[0m
+mpi rank : 0 at time 1.8
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(3918.732s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.84 but only 0.04 is available[0m
+[0m[33m(3932.968s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.84 but only 0.04 is available[0m
+[0m[33m(3933.837s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.84 but only 0.04 is available[0m
+[0m[33m(3943.510s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.84 but only 0.04 is available[0m
+[0m[33m(3944.362s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.84 but only 0.04 is available[0m
+[0m[33m(3958.324s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.84 but only 0.04 is available[0m
+[0m[33m(3959.174s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.84 but only 0.04 is available[0m
+[0m[33m(3974.353s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.84 but only 0.04 is available[0m
+[0m[33m(3975.208s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.84 but only 0.04 is available[0m
+mpi rank : 0 at time 1.9
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(4009.052s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.88 but only 0.04 is available[0m
+[0m[33m(4023.143s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.88 but only 0.04 is available[0m
+[0m[33m(4024.020s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.88 but only 0.04 is available[0m
+[0m[33m(4033.661s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.88 but only 0.04 is available[0m
+[0m[33m(4034.638s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.88 but only 0.04 is available[0m
+[0m[33m(4048.415s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.88 but only 0.04 is available[0m
+[0m[33m(4049.267s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.88 but only 0.04 is available[0m
+[0m[33m(4063.045s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.88 but only 0.04 is available[0m
+[0m[33m(4063.934s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.88 but only 0.04 is available[0m
+mpi rank : 0 at time 1.9
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(4097.751s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.92 but only 0.04 is available[0m
+[0m[33m(4111.893s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.92 but only 0.04 is available[0m
+[0m[33m(4112.760s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.92 but only 0.04 is available[0m
+[0m[33m(4122.514s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.92 but only 0.04 is available[0m
+[0m[33m(4123.369s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.92 but only 0.04 is available[0m
+[0m[33m(4137.241s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.92 but only 0.04 is available[0m
+[0m[33m(4138.117s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.92 but only 0.04 is available[0m
+[0m[33m(4151.909s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.92 but only 0.04 is available[0m
+[0m[33m(4152.777s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.92 but only 0.04 is available[0m
+mpi rank : 0 at time 2.0
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(4186.737s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 1.96 but only 0.04 is available[0m
+[0m[33m(4200.976s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 1.96 but only 0.04 is available[0m
+[0m[33m(4201.852s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 1.96 but only 0.04 is available[0m
+[0m[33m(4211.566s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 1.96 but only 0.04 is available[0m
+[0m[33m(4212.419s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 1.96 but only 0.04 is available[0m
+[0m[33m(4226.266s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 1.96 but only 0.04 is available[0m
+[0m[33m(4227.978s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 1.96 but only 0.04 is available[0m
+[0m[33m(4241.742s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 1.96 but only 0.04 is available[0m
+[0m[33m(4242.605s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 1.96 but only 0.04 is available[0m
+mpi rank : 0 at time 2.0
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(4277.630s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2 but only 0.04 is available[0m
+[0m[33m(4291.842s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2 but only 0.04 is available[0m
+[0m[33m(4292.725s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2 but only 0.04 is available[0m
+[0m[33m(4302.656s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2 but only 0.04 is available[0m
+[0m[33m(4303.516s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2 but only 0.04 is available[0m
+[0m[33m(4317.556s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2 but only 0.04 is available[0m
+[0m[33m(4318.410s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2 but only 0.04 is available[0m
+[0m[33m(4332.318s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2 but only 0.04 is available[0m
+[0m[33m(4333.200s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2 but only 0.04 is available[0m
+mpi rank : 0 at time 2.0
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(4367.294s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.04 but only 0.04 is available[0m
+[0m[33m(4381.532s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.04 but only 0.04 is available[0m
+[0m[33m(4382.385s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.04 but only 0.04 is available[0m
+[0m[33m(4392.257s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.04 but only 0.04 is available[0m
+[0m[33m(4393.135s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.04 but only 0.04 is available[0m
+[0m[33m(4407.160s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.04 but only 0.04 is available[0m
+[0m[33m(4408.044s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.04 but only 0.04 is available[0m
+[0m[33m(4421.929s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.04 but only 0.04 is available[0m
+[0m[33m(4422.798s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.04 but only 0.04 is available[0m
+mpi rank : 0 at time 2.1
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(4457.187s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.08 but only 0.04 is available[0m
+[0m[33m(4471.498s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.08 but only 0.04 is available[0m
+[0m[33m(4472.349s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.08 but only 0.04 is available[0m
+[0m[33m(4482.208s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.08 but only 0.04 is available[0m
+[0m[33m(4483.087s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.08 but only 0.04 is available[0m
+[0m[33m(4496.898s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.08 but only 0.04 is available[0m
+[0m[33m(4497.764s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.08 but only 0.04 is available[0m
+[0m[33m(4511.756s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.08 but only 0.04 is available[0m
+[0m[33m(4512.617s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.08 but only 0.04 is available[0m
+mpi rank : 0 at time 2.1
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(4546.935s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.12 but only 0.04 is available[0m
+[0m[33m(4561.102s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.12 but only 0.04 is available[0m
+[0m[33m(4562.001s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.12 but only 0.04 is available[0m
+[0m[33m(4571.904s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.12 but only 0.04 is available[0m
+[0m[33m(4573.158s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.12 but only 0.04 is available[0m
+[0m[33m(4587.098s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.12 but only 0.04 is available[0m
+[0m[33m(4587.995s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.12 but only 0.04 is available[0m
+[0m[33m(4601.812s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.12 but only 0.04 is available[0m
+[0m[33m(4602.769s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.12 but only 0.04 is available[0m
+mpi rank : 0 at time 2.2
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(4637.114s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.16 but only 0.04 is available[0m
+[0m[33m(4651.360s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.16 but only 0.04 is available[0m
+[0m[33m(4652.243s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.16 but only 0.04 is available[0m
+[0m[33m(4662.163s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.16 but only 0.04 is available[0m
+[0m[33m(4663.302s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.16 but only 0.04 is available[0m
+[0m[33m(4677.206s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.16 but only 0.04 is available[0m
+[0m[33m(4678.084s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.16 but only 0.04 is available[0m
+[0m[33m(4691.985s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.16 but only 0.04 is available[0m
+[0m[33m(4693.038s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.16 but only 0.04 is available[0m
+mpi rank : 0 at time 2.2
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(4727.612s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.2 but only 0.04 is available[0m
+[0m[33m(4741.976s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.2 but only 0.04 is available[0m
+[0m[33m(4742.854s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.2 but only 0.04 is available[0m
+[0m[33m(4753.452s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.2 but only 0.04 is available[0m
+[0m[33m(4754.324s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.2 but only 0.04 is available[0m
+[0m[33m(4769.084s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.2 but only 0.04 is available[0m
+[0m[33m(4769.957s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.2 but only 0.04 is available[0m
+[0m[33m(4783.807s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.2 but only 0.04 is available[0m
+[0m[33m(4784.671s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.2 but only 0.04 is available[0m
+mpi rank : 0 at time 2.2
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(4818.996s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.24 but only 0.04 is available[0m
+[0m[33m(4833.206s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.24 but only 0.04 is available[0m
+[0m[33m(4834.088s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.24 but only 0.04 is available[0m
+[0m[33m(4844.020s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.24 but only 0.04 is available[0m
+[0m[33m(4844.892s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.24 but only 0.04 is available[0m
+[0m[33m(4858.630s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.24 but only 0.04 is available[0m
+[0m[33m(4859.500s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.24 but only 0.04 is available[0m
+[0m[33m(4873.386s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.24 but only 0.04 is available[0m
+[0m[33m(4874.241s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.24 but only 0.04 is available[0m
+mpi rank : 0 at time 2.3
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(4908.922s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.28 but only 0.04 is available[0m
+[0m[33m(4923.023s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.28 but only 0.04 is available[0m
+[0m[33m(4923.912s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.28 but only 0.04 is available[0m
+[0m[33m(4934.039s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.28 but only 0.04 is available[0m
+[0m[33m(4934.910s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.28 but only 0.04 is available[0m
+[0m[33m(4948.803s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.28 but only 0.04 is available[0m
+[0m[33m(4949.666s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.28 but only 0.04 is available[0m
+[0m[33m(4963.458s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.28 but only 0.04 is available[0m
+[0m[33m(4964.308s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.28 but only 0.04 is available[0m
+mpi rank : 0 at time 2.3
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(4999.154s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.32 but only 0.04 is available[0m
+[0m[33m(5013.266s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.32 but only 0.04 is available[0m
+[0m[33m(5014.142s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.32 but only 0.04 is available[0m
+[0m[33m(5024.269s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.32 but only 0.04 is available[0m
+[0m[33m(5025.145s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.32 but only 0.04 is available[0m
+[0m[33m(5038.937s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.32 but only 0.04 is available[0m
+[0m[33m(5039.806s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.32 but only 0.04 is available[0m
+[0m[33m(5053.708s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.32 but only 0.04 is available[0m
+[0m[33m(5054.568s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.32 but only 0.04 is available[0m
+mpi rank : 0 at time 2.4
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(5089.573s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.36 but only 0.04 is available[0m
+[0m[33m(5103.603s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.36 but only 0.04 is available[0m
+[0m[33m(5104.458s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.36 but only 0.04 is available[0m
+[0m[33m(5114.529s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.36 but only 0.04 is available[0m
+[0m[33m(5115.383s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.36 but only 0.04 is available[0m
+[0m[33m(5129.199s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.36 but only 0.04 is available[0m
+[0m[33m(5130.074s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.36 but only 0.04 is available[0m
+[0m[33m(5144.025s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.36 but only 0.04 is available[0m
+[0m[33m(5144.897s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.36 but only 0.04 is available[0m
+mpi rank : 0 at time 2.4
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(5180.384s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.4 but only 0.04 is available[0m
+[0m[33m(5194.510s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.4 but only 0.04 is available[0m
+[0m[33m(5195.497s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.4 but only 0.04 is available[0m
+[0m[33m(5205.763s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.4 but only 0.04 is available[0m
+[0m[33m(5206.629s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.4 but only 0.04 is available[0m
+[0m[33m(5220.543s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.4 but only 0.04 is available[0m
+[0m[33m(5221.484s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.4 but only 0.04 is available[0m
+[0m[33m(5235.334s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.4 but only 0.04 is available[0m
+[0m[33m(5236.185s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.4 but only 0.04 is available[0m
+mpi rank : 0 at time 2.4
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(5272.495s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.44 but only 0.04 is available[0m
+[0m[33m(5286.597s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.44 but only 0.04 is available[0m
+[0m[33m(5287.454s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.44 but only 0.04 is available[0m
+[0m[33m(5297.701s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.44 but only 0.04 is available[0m
+[0m[33m(5298.561s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.44 but only 0.04 is available[0m
+[0m[33m(5312.440s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.44 but only 0.04 is available[0m
+[0m[33m(5313.310s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.44 but only 0.04 is available[0m
+[0m[33m(5327.141s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.44 but only 0.04 is available[0m
+[0m[33m(5328.020s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.44 but only 0.04 is available[0m
+mpi rank : 0 at time 2.5
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(5363.965s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.48 but only 0.04 is available[0m
+[0m[33m(5378.102s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.48 but only 0.04 is available[0m
+[0m[33m(5378.980s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.48 but only 0.04 is available[0m
+[0m[33m(5389.207s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.48 but only 0.04 is available[0m
+[0m[33m(5390.083s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.48 but only 0.04 is available[0m
+[0m[33m(5403.938s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.48 but only 0.04 is available[0m
+[0m[33m(5404.806s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.48 but only 0.04 is available[0m
+[0m[33m(5418.639s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.48 but only 0.04 is available[0m
+[0m[33m(5419.505s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.48 but only 0.04 is available[0m
+mpi rank : 0 at time 2.5
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(5455.338s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.52 but only 0.04 is available[0m
+[0m[33m(5469.717s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.52 but only 0.04 is available[0m
+[0m[33m(5470.613s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.52 but only 0.04 is available[0m
+[0m[33m(5480.714s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.52 but only 0.04 is available[0m
+[0m[33m(5481.592s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.52 but only 0.04 is available[0m
+[0m[33m(5495.566s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.52 but only 0.04 is available[0m
+[0m[33m(5496.420s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.52 but only 0.04 is available[0m
+[0m[33m(5510.256s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.52 but only 0.04 is available[0m
+[0m[33m(5511.134s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.52 but only 0.04 is available[0m
+mpi rank : 0 at time 2.6
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(5547.090s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.56 but only 0.04 is available[0m
+[0m[33m(5561.136s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.56 but only 0.04 is available[0m
+[0m[33m(5562.033s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.56 but only 0.04 is available[0m
+[0m[33m(5572.306s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.56 but only 0.04 is available[0m
+[0m[33m(5573.207s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.56 but only 0.04 is available[0m
+[0m[33m(5587.184s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.56 but only 0.04 is available[0m
+[0m[33m(5588.083s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.56 but only 0.04 is available[0m
+[0m[33m(5602.008s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.56 but only 0.04 is available[0m
+[0m[33m(5602.902s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.56 but only 0.04 is available[0m
+mpi rank : 0 at time 2.6
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(5639.127s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.6 but only 0.04 is available[0m
+[0m[33m(5653.122s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.6 but only 0.04 is available[0m
+[0m[33m(5653.997s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.6 but only 0.04 is available[0m
+[0m[33m(5664.283s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.6 but only 0.04 is available[0m
+[0m[33m(5665.160s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.6 but only 0.04 is available[0m
+[0m[33m(5678.993s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.6 but only 0.04 is available[0m
+[0m[33m(5679.871s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.6 but only 0.04 is available[0m
+[0m[33m(5693.818s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.6 but only 0.04 is available[0m
+[0m[33m(5694.682s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.6 but only 0.04 is available[0m
+mpi rank : 0 at time 2.6
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(5730.471s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.64 but only 0.04 is available[0m
+[0m[33m(5744.450s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.64 but only 0.04 is available[0m
+[0m[33m(5745.304s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.64 but only 0.04 is available[0m
+[0m[33m(5755.562s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.64 but only 0.04 is available[0m
+[0m[33m(5756.418s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.64 but only 0.04 is available[0m
+[0m[33m(5770.240s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.64 but only 0.04 is available[0m
+[0m[33m(5771.095s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.64 but only 0.04 is available[0m
+[0m[33m(5784.967s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.64 but only 0.04 is available[0m
+[0m[33m(5785.837s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.64 but only 0.04 is available[0m
+mpi rank : 0 at time 2.7
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(5821.943s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.68 but only 0.04 is available[0m
+[0m[33m(5835.918s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.68 but only 0.04 is available[0m
+[0m[33m(5836.798s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.68 but only 0.04 is available[0m
+[0m[33m(5847.221s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.68 but only 0.04 is available[0m
+[0m[33m(5848.098s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.68 but only 0.04 is available[0m
+[0m[33m(5861.933s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.68 but only 0.04 is available[0m
+[0m[33m(5862.801s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.68 but only 0.04 is available[0m
+[0m[33m(5876.600s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.68 but only 0.04 is available[0m
+[0m[33m(5877.456s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.68 but only 0.04 is available[0m
+mpi rank : 0 at time 2.7
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(5914.008s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.72 but only 0.04 is available[0m
+[0m[33m(5928.074s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.72 but only 0.04 is available[0m
+[0m[33m(5928.973s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.72 but only 0.04 is available[0m
+[0m[33m(5939.318s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.72 but only 0.04 is available[0m
+[0m[33m(5940.192s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.72 but only 0.04 is available[0m
+[0m[33m(5954.106s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.72 but only 0.04 is available[0m
+[0m[33m(5954.981s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.72 but only 0.04 is available[0m
+[0m[33m(5969.125s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.72 but only 0.04 is available[0m
+[0m[33m(5970.000s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.72 but only 0.04 is available[0m
+mpi rank : 0 at time 2.8
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(6006.494s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.76 but only 0.04 is available[0m
+[0m[33m(6020.471s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.76 but only 0.04 is available[0m
+[0m[33m(6021.354s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.76 but only 0.04 is available[0m
+[0m[33m(6031.532s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.76 but only 0.04 is available[0m
+[0m[33m(6032.407s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.76 but only 0.04 is available[0m
+[0m[33m(6046.323s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.76 but only 0.04 is available[0m
+[0m[33m(6047.203s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.76 but only 0.04 is available[0m
+[0m[33m(6060.946s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.76 but only 0.04 is available[0m
+[0m[33m(6061.817s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.76 but only 0.04 is available[0m
+mpi rank : 0 at time 2.8
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(6098.123s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.8 but only 0.04 is available[0m
+[0m[33m(6111.918s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.8 but only 0.04 is available[0m
+[0m[33m(6112.794s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.8 but only 0.04 is available[0m
+[0m[33m(6123.117s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.8 but only 0.04 is available[0m
+[0m[33m(6123.992s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.8 but only 0.04 is available[0m
+[0m[33m(6137.785s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.8 but only 0.04 is available[0m
+[0m[33m(6138.653s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.8 but only 0.04 is available[0m
+[0m[33m(6152.372s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.8 but only 0.04 is available[0m
+[0m[33m(6153.248s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.8 but only 0.04 is available[0m
+mpi rank : 0 at time 2.8
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(6189.906s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.84 but only 0.04 is available[0m
+[0m[33m(6203.892s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.84 but only 0.04 is available[0m
+[0m[33m(6204.769s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.84 but only 0.04 is available[0m
+[0m[33m(6215.069s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.84 but only 0.04 is available[0m
+[0m[33m(6215.942s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.84 but only 0.04 is available[0m
+[0m[33m(6229.834s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.84 but only 0.04 is available[0m
+[0m[33m(6230.698s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.84 but only 0.04 is available[0m
+[0m[33m(6244.474s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.84 but only 0.04 is available[0m
+[0m[33m(6245.358s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.84 but only 0.04 is available[0m
+mpi rank : 0 at time 2.9
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(6282.132s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.88 but only 0.04 is available[0m
+[0m[33m(6295.989s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.88 but only 0.04 is available[0m
+[0m[33m(6296.860s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.88 but only 0.04 is available[0m
+[0m[33m(6307.264s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.88 but only 0.04 is available[0m
+[0m[33m(6308.112s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.88 but only 0.04 is available[0m
+[0m[33m(6321.893s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.88 but only 0.04 is available[0m
+[0m[33m(6322.761s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.88 but only 0.04 is available[0m
+[0m[33m(6336.472s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.88 but only 0.04 is available[0m
+[0m[33m(6337.323s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.88 but only 0.04 is available[0m
+mpi rank : 0 at time 2.9
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(6374.513s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.92 but only 0.04 is available[0m
+[0m[33m(6388.430s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.92 but only 0.04 is available[0m
+[0m[33m(6389.280s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.92 but only 0.04 is available[0m
+[0m[33m(6399.660s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.92 but only 0.04 is available[0m
+[0m[33m(6400.520s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.92 but only 0.04 is available[0m
+[0m[33m(6414.177s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.92 but only 0.04 is available[0m
+[0m[33m(6415.053s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.92 but only 0.04 is available[0m
+[0m[33m(6428.716s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.92 but only 0.04 is available[0m
+[0m[33m(6429.802s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.92 but only 0.04 is available[0m
+mpi rank : 0 at time 3.0
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(6466.308s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 2.96 but only 0.04 is available[0m
+[0m[33m(6480.139s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 2.96 but only 0.04 is available[0m
+[0m[33m(6481.451s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 2.96 but only 0.04 is available[0m
+[0m[33m(6491.920s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 2.96 but only 0.04 is available[0m
+[0m[33m(6492.788s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 2.96 but only 0.04 is available[0m
+[0m[33m(6506.771s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 2.96 but only 0.04 is available[0m
+[0m[33m(6507.635s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 2.96 but only 0.04 is available[0m
+[0m[33m(6521.350s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 2.96 but only 0.04 is available[0m
+[0m[33m(6522.226s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 2.96 but only 0.04 is available[0m
+mpi rank : 0 at time 3.0
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(6558.735s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3 but only 0.04 is available[0m
+[0m[33m(6572.569s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3 but only 0.04 is available[0m
+[0m[33m(6573.451s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3 but only 0.04 is available[0m
+[0m[33m(6583.922s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3 but only 0.04 is available[0m
+[0m[33m(6584.791s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3 but only 0.04 is available[0m
+[0m[33m(6598.612s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3 but only 0.04 is available[0m
+[0m[33m(6599.468s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3 but only 0.04 is available[0m
+[0m[33m(6613.359s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3 but only 0.04 is available[0m
+[0m[33m(6614.241s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3 but only 0.04 is available[0m
+mpi rank : 0 at time 3.0
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(6650.803s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.04 but only 0.04 is available[0m
+[0m[33m(6664.622s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.04 but only 0.04 is available[0m
+[0m[33m(6665.500s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.04 but only 0.04 is available[0m
+[0m[33m(6675.936s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.04 but only 0.04 is available[0m
+[0m[33m(6676.813s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.04 but only 0.04 is available[0m
+[0m[33m(6690.961s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.04 but only 0.04 is available[0m
+[0m[33m(6691.830s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.04 but only 0.04 is available[0m
+[0m[33m(6705.773s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.04 but only 0.04 is available[0m
+[0m[33m(6706.650s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.04 but only 0.04 is available[0m
+mpi rank : 0 at time 3.1
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(6743.431s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.08 but only 0.04 is available[0m
+[0m[33m(6757.375s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.08 but only 0.04 is available[0m
+[0m[33m(6758.251s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.08 but only 0.04 is available[0m
+[0m[33m(6768.701s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.08 but only 0.04 is available[0m
+[0m[33m(6769.934s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.08 but only 0.04 is available[0m
+[0m[33m(6783.776s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.08 but only 0.04 is available[0m
+[0m[33m(6784.650s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.08 but only 0.04 is available[0m
+[0m[33m(6798.635s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.08 but only 0.04 is available[0m
+[0m[33m(6799.505s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.08 but only 0.04 is available[0m
+mpi rank : 0 at time 3.1
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(6836.684s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.12 but only 0.04 is available[0m
+[0m[33m(6850.636s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.12 but only 0.04 is available[0m
+[0m[33m(6851.513s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.12 but only 0.04 is available[0m
+[0m[33m(6861.852s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.12 but only 0.04 is available[0m
+[0m[33m(6862.730s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.12 but only 0.04 is available[0m
+[0m[33m(6876.710s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.12 but only 0.04 is available[0m
+[0m[33m(6877.590s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.12 but only 0.04 is available[0m
+[0m[33m(6891.459s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.12 but only 0.04 is available[0m
+[0m[33m(6892.335s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.12 but only 0.04 is available[0m
+mpi rank : 0 at time 3.2
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(6929.722s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.16 but only 0.04 is available[0m
+[0m[33m(6943.958s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.16 but only 0.04 is available[0m
+[0m[33m(6944.835s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.16 but only 0.04 is available[0m
+[0m[33m(6955.250s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.16 but only 0.04 is available[0m
+[0m[33m(6957.107s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.16 but only 0.04 is available[0m
+[0m[33m(6970.957s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.16 but only 0.04 is available[0m
+[0m[33m(6971.834s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.16 but only 0.04 is available[0m
+[0m[33m(6985.530s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.16 but only 0.04 is available[0m
+[0m[33m(6986.395s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.16 but only 0.04 is available[0m
+mpi rank : 0 at time 3.2
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(7023.918s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.2 but only 0.04 is available[0m
+[0m[33m(7037.634s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.2 but only 0.04 is available[0m
+[0m[33m(7038.510s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.2 but only 0.04 is available[0m
+[0m[33m(7048.907s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.2 but only 0.04 is available[0m
+[0m[33m(7049.768s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.2 but only 0.04 is available[0m
+[0m[33m(7063.803s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.2 but only 0.04 is available[0m
+[0m[33m(7064.660s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.2 but only 0.04 is available[0m
+[0m[33m(7078.593s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.2 but only 0.04 is available[0m
+[0m[33m(7079.443s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.2 but only 0.04 is available[0m
+mpi rank : 0 at time 3.2
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(7116.753s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.24 but only 0.04 is available[0m
+[0m[33m(7130.599s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.24 but only 0.04 is available[0m
+[0m[33m(7131.458s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.24 but only 0.04 is available[0m
+[0m[33m(7142.210s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.24 but only 0.04 is available[0m
+[0m[33m(7143.086s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.24 but only 0.04 is available[0m
+[0m[33m(7157.109s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.24 but only 0.04 is available[0m
+[0m[33m(7157.990s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.24 but only 0.04 is available[0m
+[0m[33m(7171.834s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.24 but only 0.04 is available[0m
+[0m[33m(7172.700s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.24 but only 0.04 is available[0m
+mpi rank : 0 at time 3.3
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(7210.475s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.28 but only 0.04 is available[0m
+[0m[33m(7224.702s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.28 but only 0.04 is available[0m
+[0m[33m(7225.581s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.28 but only 0.04 is available[0m
+[0m[33m(7235.988s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.28 but only 0.04 is available[0m
+[0m[33m(7236.868s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.28 but only 0.04 is available[0m
+[0m[33m(7250.738s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.28 but only 0.04 is available[0m
+[0m[33m(7251.616s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.28 but only 0.04 is available[0m
+[0m[33m(7265.510s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.28 but only 0.04 is available[0m
+[0m[33m(7266.389s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.28 but only 0.04 is available[0m
+mpi rank : 0 at time 3.3
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(7303.968s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.32 but only 0.04 is available[0m
+[0m[33m(7317.966s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.32 but only 0.04 is available[0m
+[0m[33m(7318.844s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.32 but only 0.04 is available[0m
+[0m[33m(7329.246s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.32 but only 0.04 is available[0m
+[0m[33m(7330.126s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.32 but only 0.04 is available[0m
+[0m[33m(7344.036s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.32 but only 0.04 is available[0m
+[0m[33m(7344.909s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.32 but only 0.04 is available[0m
+[0m[33m(7358.990s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.32 but only 0.04 is available[0m
+[0m[33m(7359.891s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.32 but only 0.04 is available[0m
+mpi rank : 0 at time 3.4
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(7397.418s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.36 but only 0.04 is available[0m
+[0m[33m(7411.315s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.36 but only 0.04 is available[0m
+[0m[33m(7412.193s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.36 but only 0.04 is available[0m
+[0m[33m(7422.753s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.36 but only 0.04 is available[0m
+[0m[33m(7423.756s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.36 but only 0.04 is available[0m
+[0m[33m(7437.709s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.36 but only 0.04 is available[0m
+[0m[33m(7438.570s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.36 but only 0.04 is available[0m
+[0m[33m(7452.506s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.36 but only 0.04 is available[0m
+[0m[33m(7453.386s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.36 but only 0.04 is available[0m
+mpi rank : 0 at time 3.4
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(7491.172s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.4 but only 0.04 is available[0m
+[0m[33m(7505.051s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.4 but only 0.04 is available[0m
+[0m[33m(7506.279s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.4 but only 0.04 is available[0m
+[0m[33m(7516.757s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.4 but only 0.04 is available[0m
+[0m[33m(7517.644s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.4 but only 0.04 is available[0m
+[0m[33m(7531.720s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.4 but only 0.04 is available[0m
+[0m[33m(7532.608s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.4 but only 0.04 is available[0m
+[0m[33m(7546.502s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.4 but only 0.04 is available[0m
+[0m[33m(7547.409s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.4 but only 0.04 is available[0m
+mpi rank : 0 at time 3.4
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(7585.284s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.44 but only 0.04 is available[0m
+[0m[33m(7599.473s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.44 but only 0.04 is available[0m
+[0m[33m(7600.374s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.44 but only 0.04 is available[0m
+[0m[33m(7610.901s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.44 but only 0.04 is available[0m
+[0m[33m(7611.766s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.44 but only 0.04 is available[0m
+[0m[33m(7625.697s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.44 but only 0.04 is available[0m
+[0m[33m(7626.571s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.44 but only 0.04 is available[0m
+[0m[33m(7640.639s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.44 but only 0.04 is available[0m
+[0m[33m(7641.517s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.44 but only 0.04 is available[0m
+mpi rank : 0 at time 3.5
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(7679.254s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.48 but only 0.04 is available[0m
+[0m[33m(7693.278s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.48 but only 0.04 is available[0m
+[0m[33m(7694.155s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.48 but only 0.04 is available[0m
+[0m[33m(7704.689s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.48 but only 0.04 is available[0m
+[0m[33m(7705.565s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.48 but only 0.04 is available[0m
+[0m[33m(7719.479s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.48 but only 0.04 is available[0m
+[0m[33m(7720.338s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.48 but only 0.04 is available[0m
+[0m[33m(7734.198s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.48 but only 0.04 is available[0m
+[0m[33m(7735.112s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.48 but only 0.04 is available[0m
+mpi rank : 0 at time 3.5
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(7772.859s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.52 but only 0.04 is available[0m
+[0m[33m(7786.680s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.52 but only 0.04 is available[0m
+[0m[33m(7787.557s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.52 but only 0.04 is available[0m
+[0m[33m(7798.067s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.52 but only 0.04 is available[0m
+[0m[33m(7798.946s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.52 but only 0.04 is available[0m
+[0m[33m(7812.934s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.52 but only 0.04 is available[0m
+[0m[33m(7813.812s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.52 but only 0.04 is available[0m
+[0m[33m(7827.624s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.52 but only 0.04 is available[0m
+[0m[33m(7828.501s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.52 but only 0.04 is available[0m
+mpi rank : 0 at time 3.6
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(7866.148s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.56 but only 0.04 is available[0m
+[0m[33m(7880.163s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.56 but only 0.04 is available[0m
+[0m[33m(7881.041s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.56 but only 0.04 is available[0m
+[0m[33m(7891.527s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.56 but only 0.04 is available[0m
+[0m[33m(7892.377s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.56 but only 0.04 is available[0m
+[0m[33m(7906.223s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.56 but only 0.04 is available[0m
+[0m[33m(7907.097s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.56 but only 0.04 is available[0m
+[0m[33m(7921.061s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.56 but only 0.04 is available[0m
+[0m[33m(7921.928s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.56 but only 0.04 is available[0m
+mpi rank : 0 at time 3.6
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(7960.212s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.6 but only 0.04 is available[0m
+[0m[33m(7974.097s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.6 but only 0.04 is available[0m
+[0m[33m(7974.972s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.6 but only 0.04 is available[0m
+[0m[33m(7985.437s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.6 but only 0.04 is available[0m
+[0m[33m(7986.292s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.6 but only 0.04 is available[0m
+[0m[33m(8000.248s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.6 but only 0.04 is available[0m
+[0m[33m(8001.125s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.6 but only 0.04 is available[0m
+[0m[33m(8015.059s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.6 but only 0.04 is available[0m
+[0m[33m(8015.937s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.6 but only 0.04 is available[0m
+mpi rank : 0 at time 3.6
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(8053.799s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.64 but only 0.04 is available[0m
+[0m[33m(8067.804s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.64 but only 0.04 is available[0m
+[0m[33m(8068.664s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.64 but only 0.04 is available[0m
+[0m[33m(8079.285s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.64 but only 0.04 is available[0m
+[0m[33m(8080.160s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.64 but only 0.04 is available[0m
+[0m[33m(8094.096s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.64 but only 0.04 is available[0m
+[0m[33m(8094.985s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.64 but only 0.04 is available[0m
+[0m[33m(8108.895s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.64 but only 0.04 is available[0m
+[0m[33m(8109.755s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.64 but only 0.04 is available[0m
+mpi rank : 0 at time 3.7
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(8147.666s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.68 but only 0.04 is available[0m
+[0m[33m(8161.599s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.68 but only 0.04 is available[0m
+[0m[33m(8162.485s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.68 but only 0.04 is available[0m
+[0m[33m(8173.073s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.68 but only 0.04 is available[0m
+[0m[33m(8173.952s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.68 but only 0.04 is available[0m
+[0m[33m(8187.800s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.68 but only 0.04 is available[0m
+[0m[33m(8188.682s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.68 but only 0.04 is available[0m
+[0m[33m(8202.629s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.68 but only 0.04 is available[0m
+[0m[33m(8203.481s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.68 but only 0.04 is available[0m
+mpi rank : 0 at time 3.7
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(8241.562s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.72 but only 0.04 is available[0m
+[0m[33m(8255.694s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.72 but only 0.04 is available[0m
+[0m[33m(8256.549s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.72 but only 0.04 is available[0m
+[0m[33m(8267.110s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.72 but only 0.04 is available[0m
+[0m[33m(8267.982s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.72 but only 0.04 is available[0m
+[0m[33m(8281.902s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.72 but only 0.04 is available[0m
+[0m[33m(8282.765s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.72 but only 0.04 is available[0m
+[0m[33m(8296.626s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.72 but only 0.04 is available[0m
+[0m[33m(8297.477s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.72 but only 0.04 is available[0m
+mpi rank : 0 at time 3.8
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(8335.643s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.76 but only 0.04 is available[0m
+[0m[33m(8349.489s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.76 but only 0.04 is available[0m
+[0m[33m(8350.366s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.76 but only 0.04 is available[0m
+[0m[33m(8360.877s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.76 but only 0.04 is available[0m
+[0m[33m(8361.758s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.76 but only 0.04 is available[0m
+[0m[33m(8375.679s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.76 but only 0.04 is available[0m
+[0m[33m(8376.571s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.76 but only 0.04 is available[0m
+[0m[33m(8390.625s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.76 but only 0.04 is available[0m
+[0m[33m(8391.481s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.76 but only 0.04 is available[0m
+mpi rank : 0 at time 3.8
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(8429.697s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.8 but only 0.04 is available[0m
+[0m[33m(8443.631s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.8 but only 0.04 is available[0m
+[0m[33m(8444.509s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.8 but only 0.04 is available[0m
+[0m[33m(8454.927s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.8 but only 0.04 is available[0m
+[0m[33m(8455.828s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.8 but only 0.04 is available[0m
+[0m[33m(8469.816s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.8 but only 0.04 is available[0m
+[0m[33m(8470.723s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.8 but only 0.04 is available[0m
+[0m[33m(8484.739s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.8 but only 0.04 is available[0m
+[0m[33m(8485.638s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.8 but only 0.04 is available[0m
+mpi rank : 0 at time 3.8
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(8524.022s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.84 but only 0.04 is available[0m
+[0m[33m(8537.925s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.84 but only 0.04 is available[0m
+[0m[33m(8538.803s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.84 but only 0.04 is available[0m
+[0m[33m(8549.311s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.84 but only 0.04 is available[0m
+[0m[33m(8550.183s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.84 but only 0.04 is available[0m
+[0m[33m(8564.138s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.84 but only 0.04 is available[0m
+[0m[33m(8565.011s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.84 but only 0.04 is available[0m
+[0m[33m(8578.818s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.84 but only 0.04 is available[0m
+[0m[33m(8579.686s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.84 but only 0.04 is available[0m
+mpi rank : 0 at time 3.9
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(8618.381s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.88 but only 0.04 is available[0m
+[0m[33m(8632.495s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.88 but only 0.04 is available[0m
+[0m[33m(8633.347s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.88 but only 0.04 is available[0m
+[0m[33m(8643.901s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.88 but only 0.04 is available[0m
+[0m[33m(8644.769s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.88 but only 0.04 is available[0m
+[0m[33m(8658.827s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.88 but only 0.04 is available[0m
+[0m[33m(8659.690s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.88 but only 0.04 is available[0m
+[0m[33m(8673.645s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.88 but only 0.04 is available[0m
+[0m[33m(8674.534s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.88 but only 0.04 is available[0m
+mpi rank : 0 at time 3.9
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(8713.266s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.92 but only 0.04 is available[0m
+[0m[33m(8727.235s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.92 but only 0.04 is available[0m
+[0m[33m(8728.112s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.92 but only 0.04 is available[0m
+[0m[33m(8738.635s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.92 but only 0.04 is available[0m
+[0m[33m(8739.537s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.92 but only 0.04 is available[0m
+[0m[33m(8753.550s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.92 but only 0.04 is available[0m
+[0m[33m(8754.477s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.92 but only 0.04 is available[0m
+[0m[33m(8768.376s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.92 but only 0.04 is available[0m
+[0m[33m(8769.249s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.92 but only 0.04 is available[0m
+mpi rank : 0 at time 4.0
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(8808.317s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 3.96 but only 0.04 is available[0m
+[0m[33m(8822.149s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 3.96 but only 0.04 is available[0m
+[0m[33m(8823.032s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 3.96 but only 0.04 is available[0m
+[0m[33m(8833.522s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 3.96 but only 0.04 is available[0m
+[0m[33m(8834.394s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 3.96 but only 0.04 is available[0m
+[0m[33m(8848.389s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 3.96 but only 0.04 is available[0m
+[0m[33m(8849.266s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 3.96 but only 0.04 is available[0m
+[0m[33m(8863.174s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 3.96 but only 0.04 is available[0m
+[0m[33m(8864.048s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 3.96 but only 0.04 is available[0m
+mpi rank : 0 at time 4.0
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+In GLOBAL RANK 0, at line: 70
+[0m[33m(8903.088s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x6ab4cc0): Requesting time 4 but only 0.04 is available[0m
+[0m[33m(8917.000s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x7b51580): Requesting time 4 but only 0.04 is available[0m
+[0m[33m(8917.901s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x8bdd600): Requesting time 4 but only 0.04 is available[0m
+[0m[33m(8928.380s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x2bf073e0): Requesting time 4 but only 0.04 is available[0m
+[0m[33m(8929.265s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x22c49d30): Requesting time 4 but only 0.04 is available[0m
+[0m[33m(8943.472s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x23ce1090): Requesting time 4 but only 0.04 is available[0m
+[0m[33m(8944.377s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0x9addfd0): Requesting time 4 but only 0.04 is available[0m
+[0m[33m(8958.398s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xab6b580): Requesting time 4 but only 0.04 is available[0m
+[0m[33m(8959.297s) [pvbatch         ]vtkPVTrivialProducer.cx:95    WARN| vtkPVTrivialProducer (0xb46ff10): Requesting time 4 but only 0.04 is available[0m
+In delete_parameters
+alsuqcli: ../nptl/pthread_mutex_lock.c:435: __pthread_mutex_lock_full: Assertion `INTERNAL_SYSCALL_ERRNO (e, __err) != ESRCH || !robust' failed.
+[0m[1m[91m
+Loguru caught a signal: SIGABRT
+[0m[0m[31mStack trace:
+31            0x41df7a /users/rhohl/alsvinn/build/alsuqcli/alsuqcli() [0x41df7a]
+30      0x2aaabbd70f91 __libc_start_main + 241
+29      0x2aaabbd88dca /lib64/libc.so.6(+0x38dca) [0x2aaabbd88dca]
+28      0x2aaabbd88d78 /lib64/libc.so.6(+0x38d78) [0x2aaabbd88d78]
+27      0x2aaace570c49 vtkProcessModule::~vtkProcessModule() + 9
+26      0x2aaace570bf0 vtkProcessModule::~vtkProcessModule() + 128
+25      0x2aaace571838 /apps/daint/UES/jenkins/7.0.UP01/gpu/easybuild/software/ParaView/5.7.0-CrayGNU-19.10-EGL/lib64/libvtkPVClientServerCoreCore-pv5.7.so.1(+0x96838) [0x2aaace571838]
+24      0x2aaacdf96a69 vtkSMSession::~vtkSMSession() + 9
+23      0x2aaace273128 vtkPVSessionBase::~vtkPVSessionBase() + 56
+22      0x2aaace276059 vtkPVSessionCore::~vtkPVSessionCore() + 9
+21      0x2aaace275f53 vtkPVSessionCore::~vtkPVSessionCore() + 371
+20      0x2aaace28de79 vtkSIProxy::~vtkSIProxy() + 9
+19      0x2aaace28dcd0 vtkSIProxy::~vtkSIProxy() + 32
+18      0x2aaace28d269 vtkSIProxy::DeleteVTKObjects() + 41
+17      0x2aaacbe0d22e vtkSmartPointerBase::operator=(vtkObjectBase*) + 46
+16      0x2aaae84f2be9 vtkPVRenderView::~vtkPVRenderView() + 9
+15      0x2aaae84f2adc vtkPVRenderView::~vtkPVRenderView() + 652
+14      0x2aaae9379379 vtkOSPRayPass::~vtkOSPRayPass() + 9
+13      0x2aaae937934a vtkOSPRayPass::~vtkOSPRayPass() + 186
+12      0x2aaae9355d15 /apps/daint/UES/jenkins/7.0.UP01/gpu/easybuild/software/ParaView/5.7.0-CrayGNU-19.10-EGL/lib64/libvtkRenderingRayTracing-pv5.7.so.1(+0x22d15) [0x2aaae9355d15]
+11      0x2aaaaab5baa3 ospShutdown + 1091
+10      0x2aaaaab81e60 std::_Sp_counted_ptr<ospray::api::Device*, (__gnu_cxx::_Lock_policy)2>::_M_dispose() + 16
+9       0x2aab15446f0a ospray::api::ISPCDevice::~ISPCDevice() + 10
+8       0x2aab15446f53 ospray::api::ISPCDevice::~ISPCDevice() + 51
+7       0x2aab7c0aa7a7 rtcReleaseDevice + 39
+6       0x2aab7e2b8b2e /apps/daint/UES/jenkins/7.0.UP01/gpu/easybuild/software/ospray/1.8.5-CrayGNU-19.10/lib/libembree3.so.3(+0x22b8b2e) [0x2aab7e2b8b2e]
+5       0x2aaabb262e83 /lib64/libpthread.so.0(+0x9e83) [0x2aaabb262e83]
+4       0x2aaabbd7e7d2 /lib64/libc.so.6(+0x2e7d2) [0x2aaabbd7e7d2]
+3       0x2aaabbd7e75a /lib64/libc.so.6(+0x2e75a) [0x2aaabbd7e75a]
+2       0x2aaabbd87741 abort + 337
+1       0x2aaabbd86160 gsignal + 272
+0       0x2aaabb26b360 /lib64/libpthread.so.0(+0x12360) [0x2aaabb26b360][0m
+[0m[31m(9392.571s) [pvbatch         ]                       :0     FATL| Signal: SIGABRT[0m
+srun: error: nid06173: task 0: Aborted (core dumped)
+srun: Terminating job step 18462910.0

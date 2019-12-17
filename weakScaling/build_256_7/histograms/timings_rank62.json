@@ -1,0 +1,18 @@
+{
+	"Timing" :
+	 {
+		 "coprocess_fct" : 193.613581,
+		 "mpi_reduce" : 10.751265,
+		 "square for loop" : 87.753582,
+		 "mpi_reduce2" : 10.662553,
+		 "histogramm loop " : 0.000000,
+		 "mpi_gather" : 0.000000,
+		 "mpi_send" : 0.000000,
+		 "mpi_gather2" : 0.000000,
+		 "mpi_receive" : 0.000000,
+		 "malloc" : 0.000000,
+		 "gridfill()" : 84.437640,
+		 "total" : 8276.924684,
+		 " " : 0.000000
+ 	}
+}

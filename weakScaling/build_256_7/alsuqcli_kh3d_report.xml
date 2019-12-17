@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report><software>alsvinn https://github.com/alsvinn</software><softwareVersion>0.5.4</softwareVersion><currentWorkingDirectory>/scratch/snx3000/rhohl/alsvinn_insitu/build_256_7</currentWorkingDirectory><operatingSystem>Linux: Linux 4.12.14-150.17_5.0.85-cray_ari_c #1 SMP Thu Aug 22 18:29:02 UTC 2019 (24c42de) x86_64</operatingSystem><username>rhohl</username><host>nid01928</host><standardCLibrary>GNU libc 2.26 stable</standardCLibrary><generatedAt>20191203T033010</generatedAt><CPU>Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz</CPU><revision>0600755d9c7d51f41d6243741a8532ab0f718907</revision><versionControlStatus>DIRTY</versionControlStatus><buildType>Release</buildType><cxxFlags/><cxxFlagsDebug>-g</cxxFlagsDebug><cxxFlagsRelease>-O3 -DNDEBUG</cxxFlagsRelease><cxxFlagsMinSizeRel>-Os -DNDEBUG</cxxFlagsMinSizeRel><cxxFlagsRelWithDebInfo>-O2 -g -DNDEBUG</cxxFlagsRelWithDebInfo><cudaFlags>--use_fast_math -Xptxas -warn-spills -gencode arch=compute_50,code=sm_50 -gencode arch=compute_60,code=sm_60 -gencode arch=compute_75,code=sm_75 -gencode arch=compute_70,code=sm_70 -gencode arch=compute_61,code=sm_61</cudaFlags><cudaVersion>10.1</cudaVersion><cxxCompiler>GNU 8.3.0</cxxCompiler><cudaCompiler>NVIDIA 10.1.105</cudaCompiler><boost><BOOST_VERSION>107000</BOOST_VERSION><BOOST_LIB_VERSION>1_70</BOOST_LIB_VERSION><BOOST_PLATFORM>linux</BOOST_PLATFORM><BOOST_PLATFORM_CONFIG>boost/config/platform/linux.hpp</BOOST_PLATFORM_CONFIG><BOOST_COMPILER>GNU C++ version 8.3.0 20190222 (Cray Inc.)</BOOST_COMPILER><BOOST_LIBSTDCXX_VERSION>80300</BOOST_LIBSTDCXX_VERSION><C++11>true</C++11><BOOST_STDLIB>GNU libstdc++ version 20190222</BOOST_STDLIB><BOOST_STDLIB_CONFIG>boost/config/stdlib/libstdcpp3.hpp</BOOST_STDLIB_CONFIG></boost><floatingPointPrecisionDescription>double (double precision, 64 bits)</floatingPointPrecisionDescription><floatingPointType>double</floatingPointType><floatingPointMax>1.79769e+308</floatingPointMax><floatingPointMin>2.22507e-308</floatingPointMin><floatingPointEpsilon>2.22045e-16</floatingPointEpsilon><cudaProperties><name>Tesla P100-PCIE-16GB</name><totalGlobalMem>17071734784</totalGlobalMem><sharedMemPerBlock>49152</sharedMemPerBlock><regsPerBlock>65536</regsPerBlock><warpSize>32</warpSize><memPitch>2147483647</memPitch><maxThreadsPerBlock>1024</maxThreadsPerBlock><maxThreadsDim>1024, 1024, 64</maxThreadsDim><maxGridSize>2147483647, 65535, 65535</maxGridSize><totalConstMem>65536</totalConstMem><major>6</major><minor>0</minor><clockRate>1328500</clockRate><textureAlignment>512</textureAlignment><deviceOverlap>1</deviceOverlap><multiProcessorCount>56</multiProcessorCount><kernelExecTimeoutEnabled>0</kernelExecTimeoutEnabled><integrated>0</integrated><canMapHostMemory>1</canMapHostMemory><computeMode>3</computeMode><concurrentKernels>1</concurrentKernels><ECCEnabled>1</ECCEnabled><pciBusID>2</pciBusID><pciDeviceID>0</pciDeviceID><tccDriver>0</tccDriver></cudaProperties><mpiEnabled>true</mpiEnabled><mpiProcesses>343</mpiProcesses><mpiVersion>MPI VERSION    : CRAY MPICH version 7.7.10 (ANL base 3.2)
+MPI BUILD INFO : Built Mon Aug 19 15:12:38 2019 (git hash ff5d439) MT-G</mpiVersion><ompEnabled>true</ompEnabled><ompThreads>1</ompThreads><loadedTextFiles><_dash_scratch_dash_snx3000_dash_rhohl_dash_alsvinn_insitu_dash_build_256_7_dash_catalyst_multiblock3d_DOT_xml>&lt;config&gt;
+&lt;fvm&gt;
+  &lt;name&gt;
+    kh3d
+  &lt;/name&gt;
+  &lt;platform&gt;cuda&lt;/platform&gt;
+  &lt;grid&gt;
+    &lt;lowerCorner&gt;0 0 0&lt;/lowerCorner&gt;
+    &lt;upperCorner&gt;1 1 1&lt;/upperCorner&gt;
+    &lt;dimension&gt;1792 1792 1792&lt;/dimension&gt;
+  &lt;/grid&gt;
+  &lt;boundary&gt;periodic&lt;/boundary&gt;
+  &lt;flux&gt;hll3&lt;/flux&gt;
+  &lt;endTime&gt;4&lt;/endTime&gt;
+  &lt;equation&gt;euler3&lt;/equation&gt;
+  &lt;equationParameters&gt;
+    &lt;gamma&gt;1.4&lt;/gamma&gt;
+  &lt;/equationParameters&gt;
+  &lt;reconstruction&gt;weno2&lt;/reconstruction&gt;
+  &lt;cfl&gt;auto&lt;/cfl&gt;
+  &lt;integrator&gt;auto&lt;/integrator&gt;
+  &lt;functionals&gt;
+
+  &lt;/functionals&gt;
+  &lt;initialData&gt;
+    &lt;python&gt;kelvinhelmholtz_3d_tube.py&lt;/python&gt;
+    &lt;parameters&gt;
+      &lt;parameter&gt;
+        &lt;name&gt;a&lt;/name&gt;
+        &lt;length&gt;60&lt;/length&gt;
+        &lt;values&gt;&lt;value&gt;0&lt;/value&gt;&lt;/values&gt;
+      &lt;/parameter&gt;
+    &lt;/parameters&gt;
+  &lt;/initialData&gt;
+  &lt;diffusion&gt;
+    &lt;name&gt;none&lt;/name&gt;
+    &lt;reconstruction&gt;none&lt;/reconstruction&gt;
+  &lt;/diffusion&gt;
+  &lt;writer&gt;
+      &lt;type&gt;dll&lt;/type&gt;
+      &lt;library&gt;adaptor/libdll_adaptor.so&lt;/library&gt;
+      &lt;create_function&gt;create&lt;/create_function&gt;
+      &lt;delete_function&gt;delete_data&lt;/delete_function&gt;
+      &lt;write_function&gt;CatalystCoProcess&lt;/write_function&gt;
+      &lt;make_parameters_function&gt;make_parameters&lt;/make_parameters_function&gt;
+      &lt;delete_parameters_function&gt;delete_parameters&lt;/delete_parameters_function&gt;
+      &lt;needs_data_on_host_function&gt;needs_data_on_host&lt;/needs_data_on_host_function&gt;
+      &lt;set_parameter_function&gt;set_parameter&lt;/set_parameter_function&gt;
+      &lt;set_mpi_comm_function&gt;set_mpi_comm&lt;/set_mpi_comm_function&gt;
+      &lt;new_timestep_function&gt;new_timestep&lt;/new_timestep_function&gt;
+      &lt;end_timestep_function&gt;end_timestep&lt;/end_timestep_function&gt;
+     &lt;endTime&gt;4&lt;/endTime&gt;
+      &lt;basename&gt;none&lt;/basename&gt;
+        &lt;samples&gt;1&lt;/samples&gt;
+        &lt;multiblock&gt;7 7 7&lt;/multiblock&gt;
+         &lt;hist_2points&gt;1&lt;/hist_2points&gt;
+      &lt;hist_npoints&gt;8&lt;/hist_npoints&gt;
+      &lt;hist_nbins&gt;10&lt;/hist_nbins&gt;
+      &lt;hist_folder&gt;/scratch/snx3000/rhohl/alsvinn_insitu/build_256_7/histograms/&lt;/hist_folder&gt;
+	 &lt;catalystscript&gt;../pythonScripts/generic3d_mb_isovol.py&lt;/catalystscript&gt;
+      &lt;numberOfSaves&gt;100&lt;/numberOfSaves&gt;
+    &lt;/writer&gt;
+&lt;/fvm&gt;
+&lt;uq&gt;
+  &lt;samples&gt;1&lt;/samples&gt;
+  &lt;generator&gt;auto&lt;/generator&gt;
+  &lt;parameters&gt;
+    &lt;parameter&gt;
+      &lt;name&gt;a&lt;/name&gt;
+      &lt;length&gt;60&lt;/length&gt;
+      &lt;type&gt;uniform&lt;/type&gt;
+    &lt;/parameter&gt;
+  &lt;/parameters&gt;
+  &lt;stats&gt;
+  &lt;/stats&gt;
+&lt;/uq&gt;
+
+&lt;/config&gt;
+</_dash_scratch_dash_snx3000_dash_rhohl_dash_alsvinn_insitu_dash_build_256_7_dash_catalyst_multiblock3d_DOT_xml><_dash_scratch_dash_snx3000_dash_rhohl_dash_alsvinn_insitu_dash_build_256_7_dash_kelvinhelmholtz_3d_tube_DOT_py>import numpy as np
+
+def init_global(rho, ux, uy, uz, p, nx, ny, nz, ax, ay, az, bx, by, bz):
+    N = int(len(a)/6)
+    a1 = a[:N]
+    a2 = a[N:2*N]
+    a3 = a[2*N:3*N]
+    b1 = a[3*N:4*N]
+    b2 = a[4*N:5*N]
+    b3 = a[5*N:6*N]
+
+    perturbation = 0.1
+    normalization1 = sum(a1)
+    if abs(normalization1) &lt; 1e-10:
+        normalization1 = 1
+    normalization2 = sum(a2)
+    if abs(normalization2) &lt; 1e-10:
+        normalization2 = 1
+    normalization3 = sum(a3)
+    if abs(normalization3) &lt; 1e-10:
+        normalization3 = 1
+
+    x = np.linspace(ax, bx, nx)
+    y = np.linspace(ay, by, ny)
+    z = np.linspace(az, bz, nz)
+    Y, X, Z = np.meshgrid(y, x, z)
+    X = X
+    Y = Y
+    Z = Z
+
+    R = ((Y - 0.5)**2 + (Z - 0.5)**2)**(0.5)
+
+    Theta = np.arctan2(Z, Y)
+    perturbation_radius = perturbation*sum([a1[i]*cos(2*pi*(i+1)*(R+b1[i])) for i in range(len(a1))], 0)/normalization1
+    perturbation_radius += perturbation*sum([a2[i]*cos(2*pi*(i+1)*(Theta+b2[i])) for i in range(len(a2))], 0)/normalization2
+    perturbation_radius += perturbation*sum([a3[i]*cos(2*pi*(i+1)*(X+b3[i])) for i in range(len(a3))], 0)/normalization3
+    perturbation_radius /= 2
+
+    middle = (R &lt; 0.25 + perturbation_radius)
+
+    rho[:, :, :] = 2.0 * middle + 1.0*(1-middle)
+    ux[:, :, :] = -0.5*middle + 0.5*(1-middle)
+    uy[:,:,:] = np.zeros_like(X)
+    uz[:,:,:] = np.zeros_like(X)
+    p[:,:,:] = 2.5*np.ones_like(X)
+</_dash_scratch_dash_snx3000_dash_rhohl_dash_alsvinn_insitu_dash_build_256_7_dash_kelvinhelmholtz_3d_tube_DOT_py></loadedTextFiles><pythonVersion>Runtime: 3.6.5 (default, Apr 15 2019, 18:26:21) 
+[GCC 7.3.0 20180125 (Cray Inc.)], compile time: 3.6.5</pythonVersion><alsvinnInDocker>false</alsvinnInDocker><timings><allTimedEvents><totalTime>29759.486678038</totalTime><percentOfProgramTotalTime>101</percentOfProgramTotalTime><hasIndividualTimeData>false</hasIndividualTimeData><alsvinn><totalTime>29759.486678038</totalTime><percentOfProgramTotalTime>101</percentOfProgramTotalTime><hasIndividualTimeData>true</hasIndividualTimeData><fvm><totalTime>13111.079029640923</totalTime><percentOfProgramTotalTime>45</percentOfProgramTotalTime><hasIndividualTimeData>false</hasIndividualTimeData><init><totalTime>19.712363399000001</totalTime><percentOfProgramTotalTime>1</percentOfProgramTotalTime><hasIndividualTimeData>false</hasIndividualTimeData><python><totalTime>19.712363399000001</totalTime><percentOfProgramTotalTime>1</percentOfProgramTotalTime><hasIndividualTimeData>true</hasIndividualTimeData><evaluation><totalTime>0.000959482</totalTime><percentOfProgramTotalTime>1</percentOfProgramTotalTime><hasIndividualTimeData>true</hasIndividualTimeData></evaluation><init_global><totalTime>19.439630545</totalTime><percentOfProgramTotalTime>1</percentOfProgramTotalTime><hasIndividualTimeData>true</hasIndividualTimeData></init_global></python></init><numflux><totalTime>12939.671605567912</totalTime><percentOfProgramTotalTime>44</percentOfProgramTotalTime><hasIndividualTimeData>true</hasIndividualTimeData></numflux><reconstruction><totalTime>151.69506067401218</totalTime><percentOfProgramTotalTime>1</percentOfProgramTotalTime><hasIndividualTimeData>true</hasIndividualTimeData></reconstruction></fvm><mpi><totalTime>16439.579409773014</totalTime><percentOfProgramTotalTime>56</percentOfProgramTotalTime><hasIndividualTimeData>false</hasIndividualTimeData><exchange><totalTime>16439.579409773014</totalTime><percentOfProgramTotalTime>56</percentOfProgramTotalTime><hasIndividualTimeData>true</hasIndividualTimeData><wait><totalTime>0.38212524799999481</totalTime><percentOfProgramTotalTime>1</percentOfProgramTotalTime><hasIndividualTimeData>true</hasIndividualTimeData></wait></exchange></mpi><uq><totalTime>0.27695450599999999</totalTime><percentOfProgramTotalTime>1</percentOfProgramTotalTime><hasIndividualTimeData>false</hasIndividualTimeData><generate><totalTime>1.0574000000000001e-05</totalTime><percentOfProgramTotalTime>1</percentOfProgramTotalTime><hasIndividualTimeData>true</hasIndividualTimeData></generate><init><totalTime>0.276943932</totalTime><percentOfProgramTotalTime>1</percentOfProgramTotalTime><hasIndividualTimeData>true</hasIndividualTimeData></init></uq></alsvinn></allTimedEvents></timings><executable>alsuqcli</executable><name>kh3d</name><endTime>20191203T033010</endTime><cpuDuration>21203457</cpuDuration><cpuDurationHuman>05:53:23</cpuDurationHuman><wallTime>29759000</wallTime><wallTimeHuman>08:15:59</wallTimeHuman><timesteps>124916</timesteps><command>/users/rhohl/alsvinn/build/alsuqcli/alsuqcli --multi-x 7 --multi-y 7 --multi-z 7 /scratch/snx3000/rhohl/alsvinn_insitu/build_256_7/catalyst_multiblock3d.xml </command></report>

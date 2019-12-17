@@ -1,0 +1,5 @@
+/scratch/snx3000/rhohl/alsvinn_insitu/build_256_6/CMakeFiles/rebuild_cache.dir
+/scratch/snx3000/rhohl/alsvinn_insitu/build_256_6/CMakeFiles/edit_cache.dir
+/scratch/snx3000/rhohl/alsvinn_insitu/build_256_6/adaptor/CMakeFiles/edit_cache.dir
+/scratch/snx3000/rhohl/alsvinn_insitu/build_256_6/adaptor/CMakeFiles/dll_adaptor.dir
+/scratch/snx3000/rhohl/alsvinn_insitu/build_256_6/adaptor/CMakeFiles/rebuild_cache.dir
